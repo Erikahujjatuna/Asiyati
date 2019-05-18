@@ -300,7 +300,7 @@
 
 
   <li class="md-nav__item">
-    <a href="." title="Home" class="md-nav__link">
+    <a href="biodata/" title="Home" class="md-nav__link">
       Home
     </a>
   </li>
@@ -454,7 +454,7 @@
 <li>Gunakan kategori mayoritas dari tetangga yang terdekat sebagai nilai prediksi dari data yang baru. </li>
 </ol>
 <h4 id="contoh-perhitungan-numerik">Contoh perhitungan numerik<a class="headerlink" href="#contoh-perhitungan-numerik" title="Permanent link">&para;</a></h4>
-<p>​                                           <img alt="Capture0" src="assets\images\Capture0.JPG" /></p>
+<p>​                                           <img alt="Capture0" src="assets\images\Capture0.png" /></p>
 <p>​   Data diatas terdiri dari 2 atribut dengan skala kuantitatif X1 dan X2 serta 2 kelas yaitu Bagus dan Jelek. Jika terdapat data baru dengan nilai X1 = 3 dan X2 = 7. Kita gunakan algoritma K-NN untuk melakukan prediksi termasuk klasifikasi apa (Bagus atau Jelek) data baru ini ?</p>
 <ol>
 <li>
@@ -464,15 +464,15 @@
 <p>Hitung jarak antara data baru dan semua data yang ada di data training. Misal menggunakan square distance dari jarak antara data baru dengan semua data yang ada di data training.</p>
 </li>
 </ol>
-<p><img alt="Capture1" src="assets\images\Capture1.JPG" /></p>
+<p><img alt="Capture1" src="assets\images\Capture1.png" /></p>
 <ol>
 <li>Urtkan jarak tersebut dan tentukan tetangga mana yang terdekat berdasarkan jarak minimum ke-K</li>
 </ol>
-<p><img alt="Capture2" src="assets\images\Capture2.JPG" /></p>
+<p><img alt="Capture2" src="assets\images\Capture2.png" /></p>
 <ol>
 <li>Periksa kelas dari tetangga terdekat</li>
 </ol>
-<p><img alt="Capture3" src="assets\images\Capture3.JPG" /></p>
+<p><img alt="Capture3" src="assets\images\Capture3.png" /></p>
 <ol class="task-list">
 <li>
 <p>Gunakan kategori mayoritas untuk memprediksi data yang baru.</p>
@@ -524,7 +524,7 @@ print(y_test.shape)
 <pre class="codehilite"><code>&lt;b&gt;Output&lt;/b&gt;</code></pre>
 
 
-<p>​           <img alt="Capture4" src="assets\images\Capture4.JPG" /></p>
+<p>​           <img alt="Capture4" src="assets\images\Capture4.png" /></p>
 <p>​   Dalam contoh kami, kami menciptakan sebuah instance (' KNN ') dari kelas ' Ktetangga Sclassifer ', dengan kata lain kami telah menciptakan sebuah objek yang disebut ' KNN ' yang tahu bagaimana melakukan KNN klasifikasi setelah kami menyediakan data. Parameter ' n_neighbors ' adalah parameter tuning/Hyper parameter (k). Semua parameter lainnya diatur ke nilai default.</p>
 <p>​   Metode ' Fit ' digunakan untuk melatih model pada data pelatihan (X_train, y_train) dan ' memprediksi ' metode untuk melakukan pengujian pada pengujian data (X_test). Memilih nilai optimal K sangat penting, jadi kami cocok dan menguji model untuk nilai yang berbeda untuk K (dari 1 sampai 45) menggunakan untuk loop dan merekam akurasi pengujian KNN dalam variabel (Skor).</p>
 <pre class="codehilite"><code class="language-python">#Import the KNeighborsClassifier class from sclearn
@@ -560,7 +560,7 @@ plt.xlabel('Value of k for KNN')
 plt.ylabel('Testing Accuracy')</code></pre>
 
 <p><b>Output</b></p>
-<p><img alt="Capture5" src="assets\images\Capture5.JPG" /></p>
+<p><img alt="Capture5" src="assets\images\Capture5.png" /></p>
 <p>​   Jadi untuk model terakhir, kita dapat memilih nilai yang optimal K antara 3 dan 19, antara 22 dan 25 yang merupakan nilai tertinggi dari testing accuracy.</p>
 <p>Mungkin sampai disini pembahasan dari Knowladge of KNN terima kasih.....</p>
                 
